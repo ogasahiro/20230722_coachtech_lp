@@ -1,0 +1,40 @@
+.header{
+    display:flex;
+    position: relative;
+}
+.photo{
+    position: absolute;
+    size: 0.3ex;
+}
+.nav-list {
+    position: absolute;
+    right:0;
+    text-align: right;
+}
+.nav-item {
+    display: inline;
+}
+
+
+
+.main{
+    position:relative;
+    }
+
+.font{
+    position: absolute;
+    color: brown;
+    font-family: 'Indie Flower', cursive;
+}
+.color{
+    color: blue;
+}
+.color2{
+    position:absolute;
+    color: brown;
+}
+.photo2{
+    position:absolute;
+}
+
+
