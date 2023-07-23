@@ -4,7 +4,8 @@
 }
 .photo{
     position: absolute;
-    size: 0.3ex;
+    height: 25px;
+    width: 75px;
 }
 .nav-list {
     position: absolute;
@@ -19,10 +20,13 @@
 
 .main{
     position:relative;
+    top:2vh;
     }
 
 .font{
     position: absolute;
+    margin-top: 75px;
+    text-align:center;
     color: brown;
     font-family: 'Indie Flower', cursive;
 }
@@ -31,10 +35,114 @@
 }
 .color2{
     position:absolute;
+    left:25vw;
     color: brown;
 }
 .photo2{
     position:absolute;
+    width: 50vw;
+    text-align: right;
 }
 
+.main2{
+    position:relative;
+    top:16vh;
+    }
+.common{
+    position:absolute;
+    }
+.text2{
+    position:absolute;
+    color:blue;
+    }
 
+.news{
+
+}
+
+.main3{
+    position:relative;
+    top:30vh;
+}
+.common2{
+    position:absolute;
+}
+.text3{
+    position:absolute;
+}
+.text4{
+    position:absolute;
+}
+.photo3{
+    position:absolute;
+    height: auto;
+    width: 25vw;
+}
+
+.main4{
+    position:relative;
+    top:44vh;
+}
+.box{
+    position:absolute;
+}
+.box2{
+    position:absolute;
+}
+.box3{
+    position:absolute;
+}
+
+.main5{
+    position:relative;
+    top:58vh;
+}
+.common3{
+    position:absolute;
+}
+.text5{
+    position:absolute;
+}
+.item{
+    position:absolute;
+}
+.item2{
+    position:absolute;
+}
+.item3{
+    position:absolute;
+}
+.bottom{
+    position:absolute;
+}
+
+.main6{
+    position:relative;
+    top:72vh;
+}
+.common4{
+    position:absolute;
+}
+.text6{
+    position:absolute;
+}
+.list{
+    position:absolute;
+}
+
+.main7{
+    position:relative;
+    top:86vh;
+}
+.photo6{
+    position:absolute;
+}
+.photo7{
+    position:absolute;
+}
+.text7{
+    position:absolute;
+}
+.buttom2{
+    position:absolute;
+}
