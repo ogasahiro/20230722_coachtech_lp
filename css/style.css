@@ -20,7 +20,8 @@
 
 .main{
     position:relative;
-    top:2vh;
+    top: 80px;
+    left: 0;
     }
 
 .font{
@@ -40,13 +41,13 @@
 }
 .photo2{
     position:absolute;
-    width: 50vw;
-    text-align: right;
+    width: 60vw;
+    right: 0;
 }
 
 .main2{
     position:relative;
-    top:16vh;
+    top:560px;
     }
 .common{
     position:absolute;
@@ -57,12 +58,13 @@
     }
 
 .news{
+    text-align:center;
 
 }
 
 .main3{
     position:relative;
-    top:30vh;
+    top: 1200px;
 }
 .common2{
     position:absolute;
@@ -81,7 +83,7 @@
 
 .main4{
     position:relative;
-    top:44vh;
+    top:1760px;
 }
 .box{
     position:absolute;
@@ -95,7 +97,7 @@
 
 .main5{
     position:relative;
-    top:58vh;
+    top:2320px;
 }
 .common3{
     position:absolute;
@@ -105,12 +107,12 @@
 }
 .item{
     position:absolute;
+    display: flex;
+    justify-content: center;
 }
-.item2{
-    position:absolute;
-}
-.item3{
-    position:absolute;
+.item1{
+    margin-right: 20px;
+    width: 20vw;
 }
 .bottom{
     position:absolute;
@@ -118,7 +120,7 @@
 
 .main6{
     position:relative;
-    top:72vh;
+    top:2880px;
 }
 .common4{
     position:absolute;
@@ -132,7 +134,7 @@
 
 .main7{
     position:relative;
-    top:86vh;
+    top:3440px;
 }
 .photo6{
     position:absolute;
