@@ -43,7 +43,7 @@ li {
 }
 .wrapper {
     max-width: 960px;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 100px;
     padding: 0 4%;
     text-align: center;
 }
@@ -75,23 +75,37 @@ li {
 }
 
 /*-------------------------------------------
-mainvisual
+top
 -------------------------------------------*/
-#mainvisual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
+#top div{
+    position: relative;
 }
-#mainvisual img {
-    width: 50%;
-    text-align:right;
+
+
+
+#top img {
+    position:absolute;
+    width: 66%;
+    margin-right: o;
 }
-#mainvisual font{
+#top p.font{
+    position: absolute;
+    font-size: 2.7rem;
+    left:20%;
     font-family: 'Indie Flower', cursive;
     color: brown;
 }
+#top p.color2{
+    position: absolute;
+    color: brown;
+}
+#top p.text{
+    position:absolute;
 
+}
+#top span{
+    color: darkblue;
+}
 
 
 
@@ -99,9 +113,6 @@ mainvisual
 /*-------------------------------------------
 news
 -------------------------------------------*/
-#news section-title{
-    
-}
 
 
 #news ul {
@@ -120,9 +131,10 @@ news
 /*-------------------------------------------
 about
 -------------------------------------------*/
-#about content{
+#about div{
     display: flex;
     justify-content: space-between;
+
 }
 #about text {
     text-align: left;
@@ -136,19 +148,16 @@ about
 /*-------------------------------------------
 service
 -------------------------------------------*/
-#service parent{
-    width:32%
+#service ul{
+    display: flex;
 
 }
 
-#service box{
-    display: inline-block;;
-    justify-content: space-between;
-}
 
-#service text{
-    text-align: left;
-}
+
+
+
+
 
 /*-------------------------------------------
 blog
@@ -179,12 +188,13 @@ company
 /*-------------------------------------------
 form
 -------------------------------------------*/
-#blog ul {
+#form div{
     display: flex;
-    justify-content: space-between;
+
+
 }
-#blog li {
-    width: 32%;
+#form img{
+    width: 50%;
 }
 
 /*-------------------------------------------
