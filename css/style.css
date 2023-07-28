@@ -132,6 +132,8 @@ news
 
 
 
+
+
 #news ul {
     border-top: solid 1px #c8c8c8;
     border-bottom:solid 1px #c8c8c8 ;
@@ -175,35 +177,29 @@ about
 service
 -------------------------------------------*/
 #service ul {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr;
 
 }
 #service li.box1{
     background-color: #c92755;
-    position: absolute;
-    width: 40%;
-    height:auto;
-    margin-right:45%;
-
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 #service li.box2{
     background-color:rgb(250, 107, 126);
-    position: absolute;
+    grid-column: 2/3;
+    grid-row: 1/2;
     display: flex;
-    text-align: center;
-    margin-left:35%;
 }
 
 
 #service li.box3{
     background-color: #f9bbc9;
-    margin-left:35%;
-    position: absolute;
+    grid-column: 2/3;
+    grid-row: 2/3;
     display: flex;
-    text-align: center;
-    margin-top: 20%;
 }
 
 
@@ -214,9 +210,6 @@ service
 /*-------------------------------------------
 blog
 -------------------------------------------*/
-#blog{
-    padding-top: 430px;
-}
 
 #blog ul {
     display: flex;
