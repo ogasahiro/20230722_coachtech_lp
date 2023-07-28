@@ -185,24 +185,25 @@ service
     position: absolute;
     width: 40%;
     height:auto;
-    margin-right:50%;
+    margin-right:45%;
 
 }
 #service li.box2{
     background-color:rgb(250, 107, 126);
     position: absolute;
-    display: inline-block;
-    margin-left:50%;
+    display: flex;
+    text-align: center;
+    margin-left:35%;
 }
 
 
 #service li.box3{
     background-color: #f9bbc9;
-    margin-left:50%;
+    margin-left:35%;
     position: absolute;
-    display: inline-block;
-    width: auto;
-    margin-top: 40%;
+    display: flex;
+    text-align: center;
+    margin-top: 20%;
 }
 
 
@@ -213,6 +214,10 @@ service
 /*-------------------------------------------
 blog
 -------------------------------------------*/
+#blog{
+    padding-top: 430px;
+}
+
 #blog ul {
     display: flex;
     justify-content: space-between;
@@ -280,20 +285,25 @@ form
 -------------------------------------------*/
 #form ul{
     display: flex;
-    justify-content: space-between;
 }
 #form li{
     position: relative;
-    width: 50vw;
 }
-#form img{
-    w
+#form a{
+    color: #ffffff;
 }
+
 
 #form p.link{
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 35%;
+    top: 30%;
+    font-size: 1rem;
+    color: #ffffff;
+}
+#form p.line{
+    border-left:2px solid #c43f70;
+    margin-left: 50%;
 }
 #form p.bottom{
     border-radius: 100px;
