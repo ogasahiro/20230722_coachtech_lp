@@ -31,11 +31,11 @@ li {
     margin-bottom: 60px;
 }
 .common {
-    display: inline-block;
     font-size: 1rem;
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    margin-bottom: 60px;
+    color: #7a0822;
+
 }
 .content-title {
     font-size: 1rem;
@@ -46,6 +46,10 @@ li {
     margin: 0 auto 100px;
     padding: 0 4%;
     text-align: center;
+    bottom:10px;
+}
+div.title{
+    position: relative;
 }
 
 /*-------------------------------------------
@@ -74,11 +78,15 @@ li {
     opacity: 0.7;
 }
 
+
 /*-------------------------------------------
 top
 -------------------------------------------*/
-#top div{
+#top{
+    display: flex;
+    justify-content: center;
     position: relative;
+    margin-bottom: 60px;
 }
 
 
@@ -86,21 +94,26 @@ top
 #top img {
     position:absolute;
     width: 66%;
-    margin-right: o;
+    margin-left:34%;
 }
 #top p.font{
     position: absolute;
     font-size: 2.7rem;
-    left:20%;
+    margin-right:30%;
     font-family: 'Indie Flower', cursive;
     color: brown;
 }
 #top p.color2{
     position: absolute;
     color: brown;
+    margin-right:50%;
+    margin-top: 24%;
+    font-size: 1rem;
 }
 #top p.text{
     position:absolute;
+    margin-right:50%;
+    margin-top: 28%;
 
 }
 #top span{
@@ -113,6 +126,10 @@ top
 /*-------------------------------------------
 news
 -------------------------------------------*/
+#news{
+    padding-top: 370px;
+}
+
 
 
 #news ul {
@@ -128,10 +145,19 @@ news
     margin-bottom:8px;
 }
 
+#news span{
+    border-radius: 100px;
+    width: 90px;
+    box-sizing: border-box;
+    background: #d01786;
+    color: #FFF;
+    text-decoration: none;
+}
+
 /*-------------------------------------------
 about
 -------------------------------------------*/
-#about div{
+#about div.block{
     display: flex;
     justify-content: space-between;
 
@@ -148,11 +174,36 @@ about
 /*-------------------------------------------
 service
 -------------------------------------------*/
-#service ul{
+#service ul {
     display: flex;
+    justify-content: center;
+    position: relative;
 
 }
+#service li.box1{
+    background-color: #c92755;
+    position: absolute;
+    width: 40%;
+    height:auto;
+    margin-right:50%;
 
+}
+#service li.box2{
+    background-color:rgb(250, 107, 126);
+    position: absolute;
+    display: inline-block;
+    margin-left:50%;
+}
+
+
+#service li.box3{
+    background-color: #f9bbc9;
+    margin-left:50%;
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    margin-top: 40%;
+}
 
 
 
@@ -163,45 +214,106 @@ service
 blog
 -------------------------------------------*/
 #blog ul {
+    display: flex;
     justify-content: space-between;
 }
 #blog li {
     text-align:justify;
     width: 32%;
 }
-#blog text{
+#blog div.photo{
+    position: relative;
+}
+#blog div.photo img{
+    width: 100%;
+}
+#blog div.photo p{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 25% 0%;
+    display: block;
+    width: 60px;
+    padding: 4px;
+    box-sizing: border-box;
+    background: #b52531;
+    color: #FFF;
+    text-decoration: none;
+}
+#blog div.text{
+    display: flex;
+    justify-content: space-between;
+}
+#blog p.buttom{
+    border-radius: 100px;
+    display: block;
+    width: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #6fa1ff;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
 }
 
 /*-------------------------------------------
 company
 -------------------------------------------*/
-#blog ul {
+#company table {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-#blog li {
-    width: 32%;
-}
-#blog text{
 
+#company th {
+    text-align:left;
+    border: solid 1px #c8c8c8;
+    background-color:rgb(216, 213, 213);
+}
+#company td{
+    text-align:left;
+    border: solid 1px #c8c8c8;
+}
 
 /*-------------------------------------------
 form
 -------------------------------------------*/
-#form div{
+#form ul{
     display: flex;
-
-
+    justify-content: space-between;
+}
+#form li{
+    position: relative;
+    width: 50vw;
 }
 #form img{
-    width: 50%;
+    w
 }
+
+#form p.link{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#form p.bottom{
+    border-radius: 100px;
+    display: block;
+    width: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #d01786;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
 
 /*-------------------------------------------
 footer
 -------------------------------------------*/
 #footer {
-    font-size: 0.5rem;
-    padding: 10px 0;
-    text-align: center;
+    background-color:rgb(232, 225, 225);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
