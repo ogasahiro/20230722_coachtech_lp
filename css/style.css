@@ -64,6 +64,7 @@ div.title{
 }
 #header img.photo{
     height: 25px;
+    width: auto;
     position: absolute;
     left:0;
 
@@ -72,6 +73,7 @@ div.title{
     display: flex;
     position: absolute;
     right: 0;
+    top:-10px;
 }
 #header li.nav-item {
     margin-left: 10px;
@@ -132,7 +134,18 @@ top
 news
 -------------------------------------------*/
 #news{
-    padding-top: 400px;
+    padding-top: 500px;
+}
+
+#news p.common{
+    position: absolute;
+    top:-90px;
+    left:270px;
+}
+#news h2.section-title{
+    position: absolute;
+    top:-80px;
+    left:270px;
 }
 
 
@@ -179,6 +192,17 @@ about
 /*-------------------------------------------
 service
 -------------------------------------------*/
+#service p.common{
+    position: absolute;
+    top:-90px;
+    left:38px;
+}
+#service h2.section-title{
+    position: absolute;
+    top:-80px;
+    left:38px;
+}
+
 #service ul.block {
     display: grid;
     grid-template-rows: 300px 300px;
@@ -237,7 +261,16 @@ service
 /*-------------------------------------------
 blog
 -------------------------------------------*/
-
+#blog p.common{
+    position: absolute;
+    top:-90px;
+    left:38px;
+}
+#blog h2.section-title{
+    position: absolute;
+    top:-80px;
+    left:38px;
+}
 #blog ul.block {
     display: flex;
     justify-content: space-between;
@@ -285,6 +318,17 @@ blog
 /*-------------------------------------------
 company
 -------------------------------------------*/
+#company p.common{
+    position: absolute;
+    top:-90px;
+    left:230px;
+}
+#company h2.section-title{
+    position: absolute;
+    top:-80px;
+    left:230px;
+}
+
 #company table.list {
     display: flex;
     justify-content: center;
