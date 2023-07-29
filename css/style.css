@@ -59,17 +59,22 @@ div.title{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    position: relative;
+    margin: 30px;
 }
-#header img{
+#header img.photo{
     height: 25px;
+    position: absolute;
+    left:0;
+
 }
-#header ul {
+#header ul.nav-list{
     display: flex;
-    padding: 10px 0;
+    position: absolute;
+    right: 0;
 }
-#header li {
-    margin-left: 30px;
+#header li.nav-item {
+    margin-left: 10px;
 }
 #header li a {
     color: #24292e;
@@ -91,7 +96,7 @@ top
 
 
 
-#top img {
+#top img.photo {
     position:absolute;
     width: 66%;
     margin-left:34%;
@@ -116,7 +121,7 @@ top
     margin-top: 28%;
 
 }
-#top span{
+#top span.text{
     color: darkblue;
 }
 
@@ -127,14 +132,12 @@ top
 news
 -------------------------------------------*/
 #news{
-    padding-top: 370px;
+    padding-top: 400px;
 }
 
 
 
-
-
-#news ul {
+#news ul.news {
     border-top: solid 1px #c8c8c8;
     border-bottom:solid 1px #c8c8c8 ;
     padding-bottom:20px;
@@ -142,12 +145,12 @@ news
     margin-bottom: 20px;
 }
 
-#news li {
+#news li.text {
     border-bottom: solid 1px #c8c8c8;
     margin-bottom:8px;
 }
 
-#news span{
+#news span.text{
     border-radius: 100px;
     width: 90px;
     box-sizing: border-box;
@@ -164,11 +167,11 @@ about
     justify-content: space-between;
 
 }
-#about text {
+#about p.text {
     text-align: left;
     margin-left: 30px;
 }
-#about img{
+#about img.photo{
     margin-right: 30px;
     width: 25%;
 }
@@ -176,7 +179,7 @@ about
 /*-------------------------------------------
 service
 -------------------------------------------*/
-#service ul {
+#service ul.block {
     display: grid;
     grid-template-rows: 300px 300px;
     grid-template-columns: 1fr 1fr;
@@ -192,6 +195,7 @@ service
     grid-column: 2/3;
     grid-row: 1/2;
     display: flex;
+    position: relative;
 }
 
 
@@ -200,9 +204,32 @@ service
     grid-column: 2/3;
     grid-row: 2/3;
     display: flex;
+    position: relative;
 }
 
+#service p.text2{
+    position:absolute;
+    right: 0;
+    top:35%;
 
+}
+#service p.text3{
+    position:absolute;
+    right: 0;
+    top:35%;
+
+}
+#service li.box2 h3.content-title{
+    position:absolute;
+    top:25%;
+    left:50%;
+
+}
+#service li.box3 h3.content-title{
+    position:absolute;
+    top:25%;
+    left:50%;
+}
 
 
 
@@ -211,11 +238,11 @@ service
 blog
 -------------------------------------------*/
 
-#blog ul {
+#blog ul.block {
     display: flex;
     justify-content: space-between;
 }
-#blog li {
+#blog li.box {
     text-align:justify;
     width: 32%;
 }
@@ -258,17 +285,17 @@ blog
 /*-------------------------------------------
 company
 -------------------------------------------*/
-#company table {
+#company table.list {
     display: flex;
     justify-content: center;
 }
 
-#company th {
+#company th.title {
     text-align:left;
     border: solid 1px #c8c8c8;
     background-color:rgb(216, 213, 213);
 }
-#company td{
+#company td.text{
     text-align:left;
     border: solid 1px #c8c8c8;
 }
@@ -282,12 +309,12 @@ form
 #form li{
     position: relative;
 }
-#form a{
+#form a.link{
     color: #ffffff;
 }
 
 
-#form p.link{
+#form p.text{
     position: absolute;
     left: 35%;
     top: 30%;
