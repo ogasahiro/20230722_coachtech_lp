@@ -282,10 +282,10 @@ blog
 #blog div.photo{
     position: relative;
 }
-#blog div.photo img{
+#blog div.photo img.photo{
     width: 100%;
 }
-#blog div.photo p{
+#blog div.photo p.text{
     position:absolute;
     left: 0px;
     top: 0px;
@@ -347,10 +347,10 @@ company
 /*-------------------------------------------
 form
 -------------------------------------------*/
-#form ul{
+#form ul.block{
     display: flex;
 }
-#form li{
+#form li.box{
     position: relative;
 }
 #form a.link{
