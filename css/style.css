@@ -60,7 +60,7 @@ div.title{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin: 30px;
+    margin-top:30px;
 }
 #header img.photo{
     height: 25px;
@@ -82,7 +82,7 @@ div.title{
     color: #24292e;
 }
 #header li a:hover {
-    opacity: 0.7;
+
 }
 
 
@@ -140,12 +140,12 @@ news
 #news p.common{
     position: absolute;
     top:-90px;
-    left:270px;
+    left:250px;
 }
 #news h2.section-title{
     position: absolute;
-    top:-80px;
-    left:270px;
+    top:-50px;
+    left:250px;
 }
 
 
@@ -195,12 +195,12 @@ service
 #service p.common{
     position: absolute;
     top:-90px;
-    left:38px;
+    left:10px;
 }
 #service h2.section-title{
     position: absolute;
-    top:-80px;
-    left:38px;
+    top:-50px;
+    left:10px;
 }
 
 #service ul.block {
@@ -264,12 +264,12 @@ blog
 #blog p.common{
     position: absolute;
     top:-90px;
-    left:38px;
+    left:10px;
 }
 #blog h2.section-title{
     position: absolute;
-    top:-80px;
-    left:38px;
+    top:-50px;
+    left:10px;
 }
 #blog ul.block {
     display: flex;
@@ -325,7 +325,7 @@ company
 }
 #company h2.section-title{
     position: absolute;
-    top:-80px;
+    top:-50px;
     left:230px;
 }
 
