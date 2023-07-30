@@ -42,9 +42,7 @@ li {
     margin: 10px 0;
 }
 .wrapper {
-    max-width: 960px;
-    margin: 0 auto 100px;
-    padding: 0 4%;
+    margin-bottom: 100px;
     text-align: center;
     bottom:10px;
 }
@@ -55,33 +53,34 @@ div.title{
 /*-------------------------------------------
 ヘッダー
 -------------------------------------------*/
-#header {
+div.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top:30px;
+    margin-top:20px;
+    margin-bottom:40px;
 }
-#header img.photo{
+div.header img.photo{
     height: 25px;
     width: auto;
     position: absolute;
     left:0;
 
 }
-#header ul.nav-list{
+div.header ul.nav-list{
     display: flex;
     position: absolute;
     right: 0;
     top:-10px;
 }
-#header li.nav-item {
+div.header li.nav-item {
     margin-left: 10px;
 }
-#header li a {
+div.header li a {
     color: #24292e;
 }
-#header li a:hover {
+#div.header li a:hover {
 
 }
 
@@ -101,25 +100,25 @@ top
 #top img.photo {
     position:absolute;
     width: 66%;
-    margin-left:34%;
+    margin-left:33%;
 }
 #top p.font{
     position: absolute;
     font-size: 2.7rem;
-    margin-right:30%;
+    margin-right:34%;
     font-family: 'Indie Flower', cursive;
     color: brown;
 }
 #top p.color2{
     position: absolute;
     color: brown;
-    margin-right:50%;
+    margin-right:48%;
     margin-top: 24%;
     font-size: 1rem;
 }
 #top p.text{
     position:absolute;
-    margin-right:50%;
+    margin-right:47%;
     margin-top: 28%;
 
 }
@@ -135,17 +134,19 @@ news
 -------------------------------------------*/
 #news{
     padding-top: 500px;
+    margin-right:200px;
+    margin-left: 200px;
 }
 
 #news p.common{
     position: absolute;
     top:-90px;
-    left:250px;
+    left:50px;
 }
 #news h2.section-title{
     position: absolute;
     top:-50px;
-    left:250px;
+    left:50px;
 }
 
 
@@ -178,6 +179,8 @@ about
 #about div.block{
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 #about p.text {
@@ -195,19 +198,19 @@ service
 #service p.common{
     position: absolute;
     top:-90px;
-    left:10px;
+    left:160px;
 }
 #service h2.section-title{
     position: absolute;
     top:-50px;
-    left:10px;
+    left:160px;
 }
 
 #service ul.block {
     display: grid;
     grid-template-rows: 300px 300px;
     grid-template-columns: 1fr 1fr;
-
+    margin:150px;
 }
 #service li.box1{
     background-color: #c92755;
@@ -264,16 +267,18 @@ blog
 #blog p.common{
     position: absolute;
     top:-90px;
-    left:10px;
+    left:160px;
 }
 #blog h2.section-title{
     position: absolute;
     top:-50px;
-    left:10px;
+    left:160px;
 }
 #blog ul.block {
     display: flex;
     justify-content: space-between;
+    margin: 150px;
+
 }
 #blog li.box {
     text-align:justify;
@@ -321,12 +326,12 @@ company
 #company p.common{
     position: absolute;
     top:-90px;
-    left:230px;
+    left:245px;
 }
 #company h2.section-title{
     position: absolute;
     top:-50px;
-    left:230px;
+    left:245px;
 }
 
 #company table.list {
@@ -349,6 +354,7 @@ form
 -------------------------------------------*/
 #form ul.block{
     display: flex;
+    justify-content: space-between;
 }
 #form li.box{
     position: relative;
@@ -356,12 +362,10 @@ form
 #form a.link{
     color: #ffffff;
 }
-
-
 #form p.text{
     position: absolute;
     left: 35%;
-    top: 30%;
+    top: 37%;
     font-size: 1rem;
     color: #ffffff;
 }
