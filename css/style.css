@@ -33,7 +33,6 @@ li {
 .common {
     font-size: 1rem;
     font-family: 'Indie Flower', cursive;
-    text-align: center;
     color: #7a0822;
 
 }
@@ -43,12 +42,9 @@ li {
 }
 .wrapper {
     margin-bottom: 100px;
-    text-align: center;
     bottom:10px;
 }
-div.title{
-    position: relative;
-}
+
 
 /*-------------------------------------------
 ヘッダー
@@ -57,20 +53,17 @@ div.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     margin-top:20px;
     margin-bottom:40px;
 }
 div.header img.photo{
     height: 25px;
     width: auto;
-    position: absolute;
     left:0;
 
 }
 div.header ul.nav-list{
     display: flex;
-    position: absolute;
     right: 0;
     top:-10px;
 }
@@ -90,40 +83,36 @@ top
 -------------------------------------------*/
 #top{
     display: flex;
-    justify-content: center;
-    position: relative;
     margin-bottom: 60px;
+    height: 500px;
+    background-image:url("img/firstview.jpg");
+    background-position:right;
+    width: auto;
+
+}
+#top img{
+    background-position:right;
+
 }
 
-
-
-#top img.photo {
-    position:absolute;
-    width: 66%;
-    margin-left:33%;
-}
 #top p.font{
-    position: absolute;
     font-size: 2.7rem;
-    margin-right:34%;
     font-family: 'Indie Flower', cursive;
     color: brown;
+    text-align: center;
 }
 #top p.color2{
-    position: absolute;
     color: brown;
-    margin-right:48%;
-    margin-top: 24%;
     font-size: 1rem;
+    text-align: center;
 }
 #top p.text{
-    position:absolute;
-    margin-right:47%;
-    margin-top: 28%;
 
 }
 #top span.text{
     color: darkblue;
+    text-align: center;
+
 }
 
 
@@ -133,20 +122,15 @@ top
 news
 -------------------------------------------*/
 #news{
-    padding-top: 500px;
     margin-right:200px;
     margin-left: 200px;
 }
 
 #news p.common{
-    position: absolute;
-    top:-90px;
-    left:50px;
+
 }
 #news h2.section-title{
-    position: absolute;
-    top:-50px;
-    left:50px;
+
 }
 
 
@@ -176,41 +160,42 @@ news
 /*-------------------------------------------
 about
 -------------------------------------------*/
+#about div.title{
+    text-align: center;
+}
+
 #about div.block{
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    align-items: center;
     margin-left: 100px;
     margin-right: 100px;
 
 }
 #about p.text {
     text-align: left;
-    margin-left: 30px;
 }
 #about img.photo{
-    margin-right: 30px;
     width: 25%;
+    height: auto;
 }
 
 /*-------------------------------------------
 service
 -------------------------------------------*/
 #service p.common{
-    position: absolute;
-    top:-90px;
-    left:160px;
+    margin-left:150px ;
 }
 #service h2.section-title{
-    position: absolute;
-    top:-50px;
-    left:160px;
+    margin-left:150px ;
 }
 
 #service ul.block {
     display: grid;
     grid-template-rows: 300px 300px;
     grid-template-columns: 1fr 1fr;
-    margin:150px;
+    margin-left:150px;
+    margin-right:150px;
 }
 #service li.box1{
     background-color: #c92755;
@@ -222,7 +207,6 @@ service
     grid-column: 2/3;
     grid-row: 1/2;
     display: flex;
-    position: relative;
 }
 
 
@@ -231,29 +215,24 @@ service
     grid-column: 2/3;
     grid-row: 2/3;
     display: flex;
-    position: relative;
 }
 
 #service p.text2{
-    position:absolute;
     right: 0;
     top:35%;
 
 }
 #service p.text3{
-    position:absolute;
     right: 0;
     top:35%;
 
 }
 #service li.box2 h3.content-title{
-    position:absolute;
     top:25%;
     left:50%;
 
 }
 #service li.box3 h3.content-title{
-    position:absolute;
     top:25%;
     left:50%;
 }
@@ -265,19 +244,16 @@ service
 blog
 -------------------------------------------*/
 #blog p.common{
-    position: absolute;
-    top:-90px;
-    left:160px;
+    margin-left: 150px;
 }
 #blog h2.section-title{
-    position: absolute;
-    top:-50px;
-    left:160px;
+    margin-left:150px;
 }
 #blog ul.block {
     display: flex;
     justify-content: space-between;
-    margin: 150px;
+    margin-right: 150px;
+    margin-left:150px;
 
 }
 #blog li.box {
@@ -323,15 +299,14 @@ blog
 /*-------------------------------------------
 company
 -------------------------------------------*/
+
 #company p.common{
-    position: absolute;
-    top:-90px;
-    left:245px;
+    text-align: center;
+
+
 }
 #company h2.section-title{
-    position: absolute;
-    top:-50px;
-    left:245px;
+    text-align: center;
 }
 
 #company table.list {
@@ -355,15 +330,21 @@ form
 #form ul.block{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 #form li.box{
-    position: relative;
+    width: 50%;
+    height: auto;
+}
+#form img{
+    width: 100%;
+    height: auto;
+
 }
 #form a.link{
     color: #ffffff;
 }
 #form p.text{
-    position: absolute;
     left: 35%;
     top: 37%;
     font-size: 1rem;
@@ -372,6 +353,9 @@ form
 #form p.line{
     border-left:2px solid #c43f70;
     margin-left: 50%;
+}
+#form p.text1{
+    text-align: center;
 }
 #form p.bottom{
     border-radius: 100px;
@@ -394,4 +378,5 @@ footer
     background-color:rgb(232, 225, 225);
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
