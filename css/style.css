@@ -151,6 +151,7 @@ news
 #news li.text {
     border-bottom: solid 1px #c8c8c8;
     margin-bottom:8px;
+    padding: 10px;
 }
 
 #news span.text{
@@ -172,8 +173,8 @@ about
 #about div.block{
     display: flex;
     justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left:15.5%;
+    margin-right:15.5%;
 
 }
 #about p.text {
@@ -216,7 +217,7 @@ service
     grid-column: 2/3;
     grid-row: 1/2;
     display: flex;
-    position: relative;
+    position:relative;
 }
 
 
@@ -225,74 +226,66 @@ service
     grid-column: 2/3;
     grid-row: 2/3;
     display: flex;
-    position: relative;
+    position:relative;
 }
 #service li.box1 img.photo{
-    position:absolute;
     width: 33%;
-    height:auto;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
+    height:35%;
+    padding-left: 33%;
+    padding-top:10%;
 }
 #service li.box2 img.photo{
-    position:absolute;
     width: 33%;
-    height:auto;
-    left:5%;
-    top:50%;
-    transform: translateY(-50%);
+    height:75%;
+    padding-left: 5%;
+    padding-top:5%;
 }
 #service li.box3 img.photo{
-    position:absolute;
     width: 33%;
-    height:auto;
-    left:5%;
-    top:50%;
-    transform: translateY(-50%);
-
+    height:75%;
+    padding-left: 5%;
+    padding-top:5%;
 }
 
 #service li.box1 p.text1{
     text-align: left;
-    position: absolute;
+    position:absolute;
     top:60%;
+    margin-left:10%;
+    margin-right: 10%;
 }
 
 #service li.box2 p.text2{
     text-align: left;
-    position: absolute;
-    left: 44%;
-    transform: translateX(-44%);
-
+    position:absolute;
+    top:40%;
+    left:40%
 
 }
 #service li.box3 p.text3{
     text-align: left;
-    position: absolute;
-    left: 44%;
-    transform: translateX(-44%);
+    position:absolute;
+    top:40%;
+    left:40%;
 
 }
 #service li.box1 h3.content-title{
-    position: absolute;
-    top:50% ;
-    left:50%;
-    transform: translate(-50%,-50%);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #service li.box2 h3.content-title{
-    position: absolute;
-    top: 20%;
-    left: 44%;
-    transform: translateX(-44%);
+    position:absolute;
+    top:25%;
+    left:40%;
 
 
 }
 #service li.box3 h3.content-title{
-    position: absolute;
-    top: 20%;
-    left: 44%;
-    transform: translateX(-44%);
+    position:absolute;
+    top:25%;
+    left:40%;
 }
 
 
@@ -323,17 +316,18 @@ blog
 }
 #blog div.photo img.photo{
     width: 100%;
+    border-radius: 12% 12% 0% 0%;
 }
 #blog div.photo p.text{
     position:absolute;
     left: 0px;
-    top: 0px;
-    border-radius: 25% 0%;
+    top: -14.4px;
+    border-radius: 25% 0% 0%;
     display: block;
     width: 60px;
     padding: 4px;
     box-sizing: border-box;
-    background: #b52531;
+    background: #fd198f;
     color: #FFF;
     text-decoration: none;
 }
@@ -342,13 +336,14 @@ blog
     justify-content: space-between;
 }
 #blog p.buttom{
-    border-radius: 100px;
+    border-radius: 100px ;
+    border: 1px solid #d01786;
     display: block;
     width: 200px;
     padding: 15px;
     box-sizing: border-box;
-    background: #6fa1ff;
-    color: #FFF;
+    background: #ffffff;
+    color: #fd198f;
     text-decoration: none;
     text-align: center;
     margin: auto;
@@ -370,19 +365,22 @@ company
 }
 
 #company table.list {
-    display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left:25%;
+    margin-right:25%;
 }
 
 #company th.title {
     text-align:left;
     border: solid 1px #c8c8c8;
     background-color:rgb(216, 213, 213);
+    padding: 8px;
+    width: 12.5%;
 }
 #company td.text{
     text-align:left;
     border: solid 1px #c8c8c8;
+    padding: 8px;
+    width: 37.5%;
 }
 
 /*-------------------------------------------
@@ -425,7 +423,13 @@ form
 #form p.text1{
     text-align: center;
 }
+#form div.bottom{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
 #form p.bottom{
+    position: absolute;
     border-radius: 100px;
     display: block;
     width: 200px;
@@ -436,8 +440,18 @@ form
     text-decoration: none;
     text-align: center;
     margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 0 #620a3f;
 }
-
+#form div.bottom img.photo{
+    position:absolute;
+    width:18px ;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    padding-right: 140px;
+}
 
 /*-------------------------------------------
 footer
