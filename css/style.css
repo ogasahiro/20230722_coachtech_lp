@@ -347,8 +347,15 @@ blog
     color: #FFF;
     text-decoration: none;
 }
+#blog div.text1{
+    text-align: center;
+}
 #blog p.text1{
     padding: 8px;
+    margin-left:8%;
+    margin-right: 8%;
+    text-align: left;
+
 
 }
 #blog div.text{
@@ -356,6 +363,8 @@ blog
     display: flex;
     justify-content: space-between;
     padding: 8px;
+    margin-left:8%;
+    margin-right: 8%;
 }
 #blog p.buttom{
     border-radius: 100px ;
