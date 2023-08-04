@@ -1,28 +1,27 @@
 @charset "UTF-8";
-
-html {
+html{
     font-size: 100%;
     height: 100%;
 }
-body {
+body{
     color: #383e45;
     font-size: 0.9rem;
 }
 a {
     text-decoration: none;
 }
-img {
+img{
     max-width: 100%;
 }
-li {
+li{
     list-style: none;
 }
-.site-title {
+.site-title{
     width: 120px;
     line-height: 1px;
     padding: 10px 0;
 }
-.site-title a {
+.site-title a{
     display: block;
 }
 .section-title {
@@ -31,26 +30,24 @@ li {
     text-align: center;
     margin-bottom: 60px;
 }
-.common {
+.common{
     font-size: 1rem;
     font-family: 'Indie Flower', cursive;
     color: #7a0822;
 
 }
-.content-title {
+.content-title{
     font-size: 1rem;
     margin: 10px 0;
 }
-.wrapper {
+.wrapper{
     margin-bottom: 100px;
     bottom:10px;
 }
-
-
 /*-------------------------------------------
 ヘッダー
 -------------------------------------------*/
-div.header {
+div.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,14 +67,9 @@ div.header ul.nav-list{
 div.header li.nav-item {
     margin-left: 10px;
 }
-div.header li a {
+div.header a.link{
     color: #24292e;
 }
-#div.header li a:hover {
-
-}
-
-
 /*-------------------------------------------
 top
 -------------------------------------------*/
@@ -86,9 +78,8 @@ top
     height: 500px;
     width: auto;
     position: relative;
-
 }
-#top img{
+#top img.photo{
     position: absolute;
     height: 100%;
     width: 60%;
@@ -116,13 +107,7 @@ top
 }
 #top span.text{
     color: darkblue;
-
-
 }
-
-
-
-
 /*-------------------------------------------
 news
 -------------------------------------------*/
@@ -130,30 +115,18 @@ news
     margin-right:25%;
     margin-left: 25%;
 }
-
-#news p.common{
-
-}
-#news h2.section-title{
-
-}
-
-
-
-#news ul.news {
+#news ul.news{
     border-top: solid 1px #c8c8c8;
     border-bottom:solid 1px #c8c8c8 ;
     padding-bottom:20px;
     padding-top:20px;
     margin-bottom: 20px;
 }
-
-#news li.text {
+#news li.text{
     border-bottom: solid 1px #c8c8c8;
     margin-bottom:8px;
     padding: 10px;
 }
-
 #news span.text{
     border-radius: 100px;
     width: 90px;
@@ -162,7 +135,6 @@ news
     color: #FFF;
     text-decoration: none;
 }
-
 /*-------------------------------------------
 about
 -------------------------------------------*/
@@ -180,7 +152,6 @@ about
     justify-content: space-between;
     margin-left:15.5%;
     margin-right:15.5%;
-
 }
 #about p.text {
     text-align: left;
@@ -191,7 +162,6 @@ about
     width: 35%;
     height: 50%;
 }
-
 /*-------------------------------------------
 service
 -------------------------------------------*/
@@ -201,14 +171,13 @@ service
 #service h2.section-title{
     margin-left:16%;
 }
-
-#service ul.block {
+#service ul.block{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     margin-left:16%;
     margin-right:16%;
-
+    color:honeydew;
 }
 #service li.box1{
     background-color: #c92755;
@@ -217,7 +186,6 @@ service
     overflow: hidden;
     position: relative;
 }
-
 #service li.box2{
     background-color:rgb(250, 107, 126);
     grid-column: 2/3;
@@ -226,8 +194,6 @@ service
     overflow: hidden;
     position:relative;
 }
-
-
 #service li.box3{
     background-color: #f9bbc9;
     grid-column: 2/3;
@@ -247,35 +213,38 @@ service
     height:75%;
     padding-left: 5%;
     padding-top:5%;
+    padding-bottom:5%;
 }
 #service li.box3 img.photo{
     width: 33%;
     height:75%;
     padding-left: 5%;
     padding-top:5%;
+    padding-bottom:5%;
 }
-
 #service li.box1 p.text1{
     text-align: left;
     position:absolute;
     top:60%;
     margin-left:10%;
     margin-right: 10%;
+    font-size: 0.75rem;
 }
-
 #service li.box2 p.text2{
     text-align: left;
     position:absolute;
-    top:40%;
-    left:40%
-
+    top:35%;
+    left:40%;
+    font-size: 0.75rem;
+    margin-right: 5%;
 }
 #service li.box3 p.text3{
     text-align: left;
     position:absolute;
-    top:40%;
+    top:35%;
     left:40%;
-
+    font-size: 0.75rem;
+    margin-right: 5%;
 }
 #service li.box1 h3.content-title{
     position:absolute;
@@ -285,20 +254,14 @@ service
 }
 #service li.box2 h3.content-title{
     position:absolute;
-    top:25%;
+    top:13%;
     left:40%;
-
-
 }
 #service li.box3 h3.content-title{
     position:absolute;
-    top:25%;
+    top:13%;
     left:40%;
 }
-
-
-
-
 /*-------------------------------------------
 blog
 -------------------------------------------*/
@@ -313,14 +276,13 @@ blog
 #blog h2.section-title{
     margin-left:15.5%;
 }
-#blog ul.block {
+#blog ul.block{
     display: flex;
     justify-content: space-between;
     margin-right: 15.5%;
     margin-left:15.5%;
-
 }
-#blog li.box {
+#blog li.box{
     text-align:justify;
     width: 32%;
     border: 0px solid #ffffff;
@@ -355,8 +317,6 @@ blog
     margin-left:8%;
     margin-right: 8%;
     text-align: left;
-
-
 }
 #blog div.text{
     overflow: hidden;
@@ -365,6 +325,7 @@ blog
     padding: 8px;
     margin-left:8%;
     margin-right: 8%;
+    font-size: 0.6rem
 }
 #blog p.buttom{
     border-radius: 100px ;
@@ -380,8 +341,6 @@ blog
     margin: auto;
     margin-top:2%;
 }
-
-
 /*-------------------------------------------
 company
 -------------------------------------------*/
@@ -390,19 +349,15 @@ company
 }
 #company p.common{
     margin-left: 25%;
-
-
 }
 #company h2.section-title{
     margin-left:25%;
 }
-
-#company table.list {
+#company table.list{
     margin-left:25%;
     margin-right:25%;
 }
-
-#company th.title {
+#company th.title{
     text-align:left;
     border: solid 1px #c8c8c8;
     background-color:rgb(216, 213, 213);
@@ -415,7 +370,6 @@ company
     padding: 8px;
     width: 37.5%;
 }
-
 /*-------------------------------------------
 form
 -------------------------------------------*/
@@ -428,11 +382,10 @@ form
     width: 50%;
     height: auto;
 }
-#form img{
+#form img.photo{
     width: 100%;
     height: auto;
 }
-
 #form div.title1{
     position: relative;
     width: 100%;
@@ -485,7 +438,6 @@ form
     margin-top: 15px;
     padding-right: 140px;
 }
-
 /*-------------------------------------------
 footer
 -------------------------------------------*/
